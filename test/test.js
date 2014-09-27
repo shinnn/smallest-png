@@ -3,13 +3,13 @@
 var fs = require('fs');
 
 var test = require('tape');
-var smallestJpegBuffer = require('require-main')();
+var smallestPng = require('require-main')();
 
 test('smallestPngBuffer()', function(t) {
   t.plan(1);
 
   t.deepEqual(
-    smallestJpegBuffer(),
+    smallestPng(),
     fs.readFileSync('test/fixture.png'),
     'should create a buffer of smallest PNG.'
   );
