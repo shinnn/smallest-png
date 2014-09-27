@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/shinnn/node-smallest-png.svg?branch=master)](https://travis-ci.org/shinnn/node-smallest-png)
 [![Build status](https://ci.appveyor.com/api/projects/status/360kg47fjmk0qa4f)](https://ci.appveyor.com/project/ShinnosukeWatanabe/node-smallest-png)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/node-smallest-png.svg)](https://coveralls.io/r/shinnn/node-smallest-png)
-[![devDependency Status](https://david-dm.org/shinnn/node-smallest-png/dev-status.svg)](https://david-dm.org/shinnn/smallest-png#info=devDependencies)
+[![devDependency Status](https://david-dm.org/shinnn/node-smallest-png/dev-status.svg)](https://david-dm.org/shinnn/node-smallest-png#info=devDependencies)
 
 A [Node](http://nodejs.org/) module to create a buffer of [theoretically smallest PNG](https://github.com/mathiasbynens/small/blob/master/png-transparent.png)
 
