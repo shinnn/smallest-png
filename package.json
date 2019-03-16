@@ -1,7 +1,7 @@
 {
 	"name": "smallest-png",
-	"version": "1.0.0",
-	"description": "Create a buffer of smallest PNG",
+	"version": "1.0.1",
+	"description": "Create a `Buffer` of smallest PNG",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"repository": "shinnn/smallest-png",
 	"license": "MIT",
