@@ -1,16 +1,16 @@
 'use strict';
 
-var fs = require('fs');
+const {readFile} = require('fs').promises;
 
-var test = require('tape');
-var smallestPng = require('require-main')();
+const smallestPng = require('..');
+const test = require('tape');
 
-test('smallestPngBuffer()', function(t) {
-  t.plan(1);
-
+test('smallestPngBuffer()', async t => {
   t.deepEqual(
     smallestPng(),
-    fs.readFileSync('test/fixture.png'),
+    await readFile('test/fixture.png'),
     'should create a buffer of smallest PNG.'
   );
+
+  t.end();
 });
