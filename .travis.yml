@@ -1,4 +1,4 @@
+if: branch !~ ^v\d
 dist: xenial
 language: node_js
 node_js: node
-after_success: npm run-script coveralls
