@@ -5,7 +5,7 @@ const {get} = require('https');
 const smallestPng = require('.');
 const test = require('tape');
 
-test('smallestPng()', async t => {
+test('smallestPng', async t => {
 	t.plan(1);
 
 	get('https://raw.githubusercontent.com/mathiasbynens/small/master/png-transparent.png', async response => {
@@ -18,8 +18,8 @@ test('smallestPng()', async t => {
 		}
 
 		t.ok(
-			smallestPng().equals(Buffer.concat(expected, len)),
-			'should create a Buffer of the theoretically smallest PNG.'
+			smallestPng.equals(Buffer.concat(expected, len)),
+			'should be a Buffer of the theoretically smallest PNG.'
 		);
 	});
 });

@@ -1,18 +1,25 @@
 # smallest-png
 
 [![npm version](https://img.shields.io/npm/v/smallest-png.svg)](https://www.npmjs.com/package/smallest-png)
-[![Build Status](https://travis-ci.com/shinnn/node-smallest-png.svg?branch=master)](https://travis-ci.com/shinnn/node-smallest-png)
+[![Build Status](https://travis-ci.com/shinnn/smallest-png.svg?branch=master)](https://travis-ci.com/shinnn/smallest-png)
 
-A [Node](https://nodejs.org/) module to create a [`Buffer`](https://nodejs.org/api/buffer.html#buffer_class_buffer) of [theoretically smallest PNG](https://github.com/mathiasbynens/small/blob/master/png-transparent.png)
+A `Buffer` of [the theoretically smallest PNG](https://github.com/mathiasbynens/small/blob/master/png-transparent.png)
 
 ```javascript
 const smallestPng = require('smallest-png');
+//=> <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 01 00 00 00 01 08 06 00 00 00 1f ...>
 
-smallestPng(); //=> <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 ...>
-smallestPng().length; //=> 67
+smallestJpeg.length; //=> 67
 ```
 
 Suitable for test fixtures.
+
+```javascript
+const {width, height} = somePngParserFunction(smallestPng);
+
+console.assert(width === 1);
+console.assert(height === 1);
+```
 
 ## Installation
 
@@ -28,9 +35,9 @@ npm install smallest-png
 const smallestPng = require('smallest-png');
 ```
 
-### smallestPng()
+### smallestPng
 
-Return: `Buffer`
+Type: [`Buffer`](https://nodejs.org/api/buffer.html#buffer_class_buffer)
 
 ## License
 
