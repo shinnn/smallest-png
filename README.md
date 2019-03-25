@@ -23,7 +23,7 @@ console.assert(height === 1);
 
 ## Installation
 
-[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install smallest-png
@@ -38,6 +38,10 @@ const smallestPng = require('smallest-png');
 ### smallestPng
 
 Type: [`Buffer`](https://nodejs.org/api/buffer.html#buffer_class_buffer)
+
+## Related
+
+* [smallest-jpeg](https://github.com/shinnn/smallest-jpeg) — A [JPEG](https://jpeg.org/jpeg/) version
 
 ## License
 
