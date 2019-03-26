@@ -1,6 +1,6 @@
 {
 	"name": "smallest-png",
-	"version": "2.0.0-1",
+	"version": "2.0.0-2",
 	"description": "A `Buffer` of the theoretically smallest PNG",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"repository": "shinnn/smallest-png",
