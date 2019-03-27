@@ -4,7 +4,7 @@
 	"description": "A `Buffer` of the theoretically smallest PNG",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"repository": "shinnn/smallest-png",
-	"license": "MIT",
+	"license": "MIT-0",
 	"scripts": {
 		"pretest": "eslint .",
 		"test": "node test.js"
