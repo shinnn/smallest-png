@@ -7,7 +7,7 @@
 	"license": "MIT-0",
 	"scripts": {
 		"pretest": "eslint .",
-		"test": "node test.js"
+		"test": "node --experimental-modules test.mjs"
 	},
 	"files": [
 		"index.js"

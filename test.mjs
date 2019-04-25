@@ -1,10 +1,8 @@
-'use strict';
+import {get} from 'https';
+import {once} from 'events';
 
-const {get} = require('https');
-const {once} = require('events');
-
-const smallestPng = require('.');
-const test = require('tape');
+import smallestPng from './index.js';
+import test from 'tape';
 
 test('smallestPng', async t => {
 	const [response] = await once(get('https://raw.githubusercontent.com/mathiasbynens/small/master/png-transparent.png'), 'response');
