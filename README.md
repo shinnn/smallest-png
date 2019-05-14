@@ -1,7 +1,7 @@
 # smallest-png
 
 [![npm version](https://img.shields.io/npm/v/smallest-png.svg)](https://www.npmjs.com/package/smallest-png)
-[![Build Status](https://travis-ci.com/shinnn/smallest-png.svg?branch=master)](https://travis-ci.com/shinnn/smallest-png)
+[![Github Actions](https://action-badges.now.sh/shinnn/smallest-png)](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/results/shinnn/smallest-png)
 
 A `Buffer` of [the theoretically smallest PNG](https://github.com/mathiasbynens/small/blob/master/png-transparent.png)
 
@@ -45,4 +45,4 @@ Type: [`Buffer`](https://nodejs.org/api/buffer.html#buffer_class_buffer)
 
 ## License
 
-[MIT No Attribution](./LICENSE) © 2019 Shinnosuke Watanabe
+[MIT No Attribution](./LICENSE) © 2019 Watanabe Shinnosuke
